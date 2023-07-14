@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: "Inter", sans-serif;
+    font-size: 0.9375rem;
+    @apply bg-off-white;
+  }
+
+  h3 {
+    @apply font-bold transition duration-500;
+  }
+
+  p {
+    @apply text-dark-grayish-blue;
+  }
+}
+
+@layer components {
+  .line {
+    display: block;
+    width: 2.5rem;
+    height: 0.2rem;
+    margin: 0.25rem auto;
+    @apply rounded-sm bg-very-dark-blue transition-all duration-700;
+  }
+
+  .open-menu {
+    @apply top-0 h-screen w-[71%] pl-6 pt-36;
+  }
+
+  .desk-menu {
+    @apply h-auto w-auto;
+  }
+
+  .flexed {
+    @apply flex flex-col lg:flex-row;
+  }
+
+  .md-lg-text {
+    @apply md:text-center lg:text-left;
+  }
+
+  .lgxl-padding {
+    @apply px-4 lg:px-14 xl:px-[10.3rem];
+  }
+
+  .new-article:hover h3 {
+    @apply text-soft-orange;
+  }
+
+  .trending-article:hover h3 {
+    @apply text-soft-red;
+  }
+
+  .btn:hover {
+    @apply bg-very-dark-blue text-off-white;
+  }
+}
