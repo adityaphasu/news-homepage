@@ -42,7 +42,7 @@ export default function Header() {
           {items.map((item, index) => (
             <li
               key={index}
-              role="list item"
+              role="listitem"
               className="text-lg text-very-dark-blue transition hover:text-soft-orange lg:text-[1.02rem] lg:text-dark-grayish-blue">
               <a href="#">{item}</a>
             </li>
