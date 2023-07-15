@@ -1,4 +1,4 @@
-# News homepage
+# 🗞️ News homepage
 
 This is a solution to the [News homepage challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl).
 
@@ -23,12 +23,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./public/Screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [FrontendMentor Solution](https://www.frontendmentor.io/solutions/news-homepage-react-tailwindcss-VSjzVEMP6h)
+- Live Site URL: [News Homepage](https://news-homepage-delta-sandy.vercel.app/)
 
 ## My process
 
