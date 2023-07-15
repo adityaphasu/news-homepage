@@ -6,6 +6,7 @@ import { fade, imageVariant, pop, popButton } from "../utils/animatedVariants";
 export default function Web3() {
   return (
     <section className="md-lg-text lg:col-span-4">
+      <h2 className="sr-only">Article about web3</h2>
       <article className="overflow-hidden lg:grid lg:grid-cols-4 lg:gap-x-7 lg:gap-y-2.5">
         <picture className="col-span-4">
           <source media="(min-width: 1024px)" srcSet={picture2} />
