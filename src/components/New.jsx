@@ -16,17 +16,18 @@ export default function New() {
       </AnimatedComponent>
       <AnimatedComponent tag="div" initial="hidden" whileInView="visible" variants={staggerContainer}>
         {articles.map((article, index) => (
-          <a href="#" key={index}>
-            <AnimatedComponent
-              tag="article"
-              variants={fade}
-              className={`new-article border-b pb-[1.4rem] pt-[1.9rem] lg:pb-[1.4375rem] lg:pt-8
+          <AnimatedComponent
+            key={index}
+            tag="article"
+            variants={fade}
+            className={`new-article border-b pb-[1.4rem] pt-[1.9rem] lg:pb-[1.4375rem] lg:pt-8
             ${index === 1 ? "lg:pb-5 lg:pt-[1.6rem] " : ""}
             ${index === 2 ? "lg:pb-7 lg:pt-[1.72rem]" : ""}`}>
+            <a href="#">
               <h3 className="text-xl tracking-[0.005em] text-off-white">{article.title}</h3>
               <p className="py-[0.48rem] leading-6 text-grayish-blue lg:leading-[1.6rem]">{article.text}</p>
-            </AnimatedComponent>
-          </a>
+            </a>
+          </AnimatedComponent>
         ))}
       </AnimatedComponent>
     </section>
