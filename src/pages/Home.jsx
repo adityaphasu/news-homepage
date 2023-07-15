@@ -9,6 +9,7 @@ export default function Home() {
     <>
       <Header />
       <main className="lgxl-padding lg:grid lg:grid-cols-6 lg:gap-[1.8rem] lg:gap-y-12 lg:pb-12 lg:pt-1">
+        <h1 className="sr-only">News</h1>
         <Web3 />
         <New />
         <Trending />

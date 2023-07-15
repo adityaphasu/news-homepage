@@ -36,13 +36,11 @@ export default function Header() {
         {isMenuOpen && <div className="fixed inset-0 bg-black bg-opacity-50" onClick={toggleMenu}></div>}
 
         <ul
-          role="list"
           className={`flexed open-menu lg:desk-menu fixed z-[1] gap-5 bg-off-white transition-all duration-500 lg:static lg:gap-[2.3rem] lg:bg-transparent lg:pt-2
           ${isMenuOpen ? "-right-[.625rem]" : "-right-full"}`}>
           {items.map((item, index) => (
             <li
               key={index}
-              role="listitem"
               className="text-lg text-very-dark-blue transition hover:text-soft-orange lg:text-[1.02rem] lg:text-dark-grayish-blue">
               <a href="#">{item}</a>
             </li>

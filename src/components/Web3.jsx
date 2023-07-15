@@ -20,7 +20,7 @@ export default function Web3() {
           />
         </picture>
         <AnimatedComponent
-          tag="h1"
+          tag="h2"
           initial="hidden"
           whileInView="visible"
           variants={fade}
