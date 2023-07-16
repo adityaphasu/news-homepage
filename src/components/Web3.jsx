@@ -20,22 +20,19 @@ export default function Web3() {
             className="py-1 md:w-full"
           />
         </picture>
-        <AnimatedComponent
-          tag="h2"
-          initial="hidden"
-          whileInView="visible"
-          variants={fade}
-          className="pt-5 text-[2.5rem] font-extrabold leading-none tracking-[0.005em] lg:col-span-2 lg:text-6xl lg:leading-[0.94] lg:-tracking-[0.033em]">
-          The Bright Future of Web 3.0
+        <h2 className="pt-5 text-[2.5rem] font-extrabold leading-none tracking-[0.005em] lg:col-span-2 lg:text-6xl lg:leading-[0.94] lg:-tracking-[0.033em]">
+          <AnimatedComponent tag="span" initial="hidden" whileInView="visible" variants={fade}>
+            The Bright Future of Web 3.0
+          </AnimatedComponent>
           <AnimatedComponent
             tag="span"
-            variants={pop}
             initial="hidden"
             whileInView="visible"
+            variants={pop}
             className="inline-block">
             ?
           </AnimatedComponent>
-        </AnimatedComponent>
+        </h2>
         <div className="lg:col-span-2">
           <AnimatedComponent
             tag="p"
